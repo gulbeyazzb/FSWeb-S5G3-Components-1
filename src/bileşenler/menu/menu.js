@@ -35,6 +35,11 @@ let menuElemanlari = [
   Adım 6: 'menuYapici' fonksiyonunu ve 'menuElemanlari' dizisini kullanarak menüyü oluşturun, ve döndürülen menüyü header'e ekleyin.
 */
 
+/**
+ * Haber divlerini component eder.
+ * @param {Array} menuElemanlari
+ * @returns "menu" classına sahip div döner
+ */
 function menuYapici(menuElemanlari) {
   const menu_div = document.createElement("div");
   menu_div.classList.add("menu");
